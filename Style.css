@@ -1,6 +1,6 @@
 
 
-html{
+body{
     background-image: url("city1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,16 @@ html{
     margin: auto;
 }
 
-#time{
-    color: steelblue;
+#clock{
+    margin: auto;
+    padding-top: 10%;
+    padding-left: 32.5%;
+}
+
+.time{
+    float: left;
+    color: pink;
+    font-size: 800%;
+    font-family: 'Orbitron', sans-serif;
 }
 
