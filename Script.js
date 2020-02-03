@@ -29,8 +29,4 @@ function time(){
 };
 
 
-function timer(){
-setInterval(time(), 500);
-};
-
-timer();
+setInterval(time(), 1000);
